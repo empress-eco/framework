@@ -1,82 +1,75 @@
 <div align="center">
-	<picture>
-		<source media="(prefers-color-scheme: dark)" srcset=".github/frappe-framework-logo-dark.svg">
-		<img src=".github/frappe-framework-logo.svg" height="50">
-	</picture>
-	<h3>
-		a web framework with <a href="https://www.youtube.com/watch?v=LOjk3m0wTwg">"batteries included"</a>
-	</h3>
-	<h5>
-		it's pronounced - <em>fra-pay</em>
-	</h5>
+  <img src="https://grow.empress.eco/uploads/default/original/2X/1/1f1e1044d3864269d2a613577edb9763890422ab.png" alt="Logo" width="80" height="80">
+  <h3 align="center">Empress Framework: Powering Full-Stack Web Development</h3>
+  <p align="center">
+    A Python-based web platform designed for efficiency, usability, and versatility.
+    <br />
+    <a href="https://Empressframework.com/docs"><strong>Explore the Docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/empress-eco/framework/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/empress-eco/framework/issues/new?template=feature_request.md">Request Feature</a>
+  </p>
 </div>
 
-<div align="center">
-	<a target="_blank" href="#LICENSE" title="License: MIT">
-		<img src="https://img.shields.io/badge/License-MIT-success.svg">
-	</a>
-	<a target="_blank" href="https://www.python.org/downloads/" title="Python version">
-		<img src="https://img.shields.io/badge/python-%3E=_3.10-success.svg">
-	</a>
-	<a href="https://frappeframework.com/docs">
-		<img src="https://img.shields.io/badge/docs-%F0%9F%93%96-success.svg"/>
-	</a>
-	<a href="https://github.com/frappe/frappe/actions/workflows/server-tests.yml">
-		<img src="https://github.com/frappe/frappe/actions/workflows/server-tests.yml/badge.svg">
-	</a>
-	<a href="https://github.com/frappe/frappe/actions/workflows/ui-tests.yml">
-		<img src="https://github.com/frappe/frappe/actions/workflows/ui-tests.yml/badge.svg?branch=develop">
-	</a>
-	<a href="https://codecov.io/gh/frappe/frappe">
-		<img src="https://codecov.io/gh/frappe/frappe/branch/develop/graph/badge.svg?token=XoTa679hIj"/>
-	</a>
-</div>
+## About The Project
 
+### 📖 Overview
+Empress Framework is a full-stack web application framework that leverages Python and MariaDB on the server side, accompanied by a tightly integrated client-side library. Created for developers, by developers, Empress Framework simplifies the process of designing, building, and deploying robust web applications.
 
-Full-stack web application framework that uses Python and MariaDB on the server side and a tightly integrated client side library. Built for [ERPNext](https://erpnext.com).
+### 🌟 Key Features
+- Batteries-included design: Everything you need to get started with development is available out of the box.
+- Python and MariaDB integration: Benefit from the flexibility and power of Python combined with the reliability of MariaDB for backend processes.
+- Tightly integrated client-side library: Smoothly manage frontend operations with our comprehensive client-side library.
 
-<div align="center" style="max-height: 40px;">
-	<a href="https://frappecloud.com/frappe/signup">
-		<img src=".github/try-on-f-cloud-button.svg" height="40">
-	</a>
-	<a href="https://labs.play-with-docker.com/?stack=https://raw.githubusercontent.com/gavindsouza/install-scripts/main/frappe/pwd.yml">
-		<img src="https://raw.githubusercontent.com/play-with-docker/stacks/master/assets/images/button.png" alt="Try in PWD" height="37"/>
-	</a>
-</div>
+### 🛠 Built With
+- [Python](https://www.python.org/)
+- [MariaDB](https://mariadb.org/)
 
-> Login for the PWD site: (username: Administrator, password: admin)
+## Getting Started
 
-## Table of Contents
-* [Installation](#installation)
-* [Contributing](#contributing)
-* [Resources](#resources)
-* [License](#license)
+### Prerequisites
+Ensure you have Python version 3.10 or higher installed on your system.
 
-## Installation
+### Installation
+To get a development environment running, follow these steps:
 
-### Production
-* [Managed Hosting on Frappe Cloud](https://frappecloud.com/)
-* [Easy install script using Docker images](https://github.com/frappe/bench/tree/develop#easy-install-script)
-* [Manual install using Docker images](https://github.com/frappe/frappe_docker)
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/empress-eco/framework.git
+   ```
+2. Navigate to the project directory:
+   ```sh
+   cd framework
+   ```
+3. Install the necessary dependencies:
+   ```sh
+   # Replace with specific installation instructions
+   ```
 
-### Development
-* [Easy install script using Docker images](https://github.com/frappe/bench/tree/develop#easy-install-script)
-* [Development installation on bare metal](https://frappeframework.com/docs/user/en/installation)
-
+## Usage
+Provide examples and usage instructions here. Include code snippets or screenshots as necessary to illustrate how the project can be used.
 
 ## Contributing
+We welcome contributions to the Empress Framework! Here's how you can contribute:
 
-1. [Code of Conduct](CODE_OF_CONDUCT.md)
-1. [Contribution Guidelines](https://github.com/frappe/erpnext/wiki/Contribution-Guidelines)
-1. [Security Policy](SECURITY.md)
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-## Resources
+## License and Acknowledgements
 
-1. [frappeframework.com](https://frappeframework.com) - Official documentation of the Frappe Framework.
-1. [frappe.school](https://frappe.school) - Pick from the various courses by the maintainers or from the community.
-1. [buildwithhussain.dev](https://buildwithhussain.dev) - Watch Frappe Framework being used in the wild to build world-class web apps.
+### License
+This project is under the MIT License. Your contributions are also licensed under the MIT License.
 
-## License
-This repository has been released under the [MIT License](LICENSE).
+### Acknowledgements
+Special thanks to the Empress Community, the architects behind the essential tools that power this project. Their innovation and dedication have been instrumental in building the foundations and functionalities we rely on. We are profoundly grateful for their pioneering work and ongoing support.
 
-By contributing to Frappe, you agree that your contributions will be licensed under its MIT License.
+## Additional Resources
+- [Empress Github](https://github.com/empress-eco/)
+- [Empress Docs](https://grow.empress.eco/)
+- [Empress School](https://Empress.school) for offering various courses on how to effectively use Empress Framework.
+- [BuildWithHussain.dev](https://buildwithhussain.dev) for showcasing real-world applications built using Empress Framework.
